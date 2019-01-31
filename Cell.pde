@@ -25,7 +25,7 @@ class Cell
     if (alive)
     {
       noStroke();
-      fill(map(dist(pos.x, pos.y, width/2, height/2), 0, width/2, 255, 100));
+      fill(255);
       rect(pos.x, pos.y, cellSize, cellSize);
     }
   }
