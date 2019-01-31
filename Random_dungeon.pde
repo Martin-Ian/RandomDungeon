@@ -182,11 +182,3 @@ int index(int x, int y)
   }
   return x*(width/cellSize) + y;
 }
-
-void keyPressed()
-{
- if(key == ' ')
- {
-  saveFrame("dungeon_######.jpg"); 
- }
-}
